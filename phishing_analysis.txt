@@ -1,0 +1,39 @@
+Phishing Email Analysis Report
+
+1. Sample Phishing Email:
+   Source: Obtained from phishtank.com (sample email content).
+
+2. Sender Email Address Analysis:
+   - Displayed as "support@paypal.com"
+   - Actual email: "support@ppal-secure.com" (clearly spoofed)
+
+3. Header Analysis:
+   - Used MXToolbox to analyze headers.
+   - Found mismatch in "Return-Path" and "Reply-To" domains.
+   - SPF/DKIM/DMARC checks failed.
+
+4. Suspicious Links/Attachments:
+   - Link displayed: https://paypal.com/verify
+   - Actual URL: http://malicious-site.click/verify-login
+   - No attachments, but link redirects to credential-harvesting site.
+
+5. Urgent/Threatening Language:
+   - Subject: "Your Account is at Risk!"
+   - Body: "Immediate action required to prevent account suspension."
+
+6. Mismatched URLs:
+   - Hovered over links: mismatched domain names from display text.
+   - Redirection to unknown domains detected.
+
+7. Spelling/Grammar Errors:
+   - Multiple errors such as "your informations" and "veriffy now".
+
+8. Summary of Phishing Traits:
+   - Spoofed sender email address.
+   - Failed header checks.
+   - Threatening tone and urgency.
+   - Fake URLs and spelling errors.
+   - Classic social engineering indicators used.
+
+Conclusion:
+This email clearly demonstrates phishing characteristics and is unsafe.
