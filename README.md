@@ -8,13 +8,13 @@ This task involves analyzing a phishing email to identify key indicators of a ph
 
 ## Steps Followed
 1.  Retrieved a phishing email .
-2. **Sender Analysis**: Detected email spoofing by comparing display and actual addresses.
-3. **Header Check**: Used an online header analyzer (MXToolbox) to find header anomalies and SPF/DKIM failures.
-4. **Links/Attachments**: Identified suspicious redirect links using hover inspection.
-5. **Language Tone**: Noted urgent and threatening language in subject and body.
-6. **URL Inspection**: Observed mismatched and misleading hyperlinks.
-7. **Grammar Review**: Found typical phishing language and grammar issues.
-8. **Summary**: Compiled a report listing all phishing indicators.
+2.  Detected email spoofing by comparing display and actual addresses.
+3.  Used an online header analyzer (MXToolbox) to find header anomalies and SPF/DKIM failures.
+4.  Identified suspicious redirect links using hover inspection.
+5.  Noted urgent and threatening language in subject and body.
+6.  Observed mismatched and misleading hyperlinks.
+7.  Found typical phishing language and grammar issues.
+8.  Compiled a report listing all phishing indicators.
 
 ## Tools Used
 - MXToolbox Email Header Analyzer
